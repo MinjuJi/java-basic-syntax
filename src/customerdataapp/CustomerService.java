@@ -82,7 +82,6 @@ public class CustomerService {
      * @param no       고객번호
      * @param password 비밀번호
      */
-
     public void deleteCustomer(int no, String password) {
         Customer customer = getCustomer(no);
         if (!customer.getPassword().equals(password)) {
