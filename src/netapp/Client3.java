@@ -18,7 +18,7 @@ public class Client3 {
         // Map 객체에 메뉴별 핸들러 객체를 저장한다.
         map.put(Cmd.MENU_LIST, new ClientFileListHandler());
         map.put(Cmd.MENU_DOWNLOAD, new ClientFileDownloadHandler(scanner));
-        map.put(Cmd.MENU_UPLOAD, new ClientFileUploadHandler());
+        map.put(Cmd.MENU_UPLOAD, new ClientFileUploadHandler(scanner));
         map.put(Cmd.MENU_EXIT, new ClientExitHandler());
     }
 

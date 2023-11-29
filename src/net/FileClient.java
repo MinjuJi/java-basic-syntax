@@ -18,7 +18,7 @@ public class FileClient {
         DataInputStream in = new DataInputStream(socket.getInputStream());
 
         // 업로드할 파일을 표현하는 File 객체를 생성한다.
-        File file = new File("src/net/Coffee.png");
+        File file = new File("src/net/coffee.png");
 
         // 업로드할 파일을 읽어오는 fileInputStream 객체를 생성한다.
         FileInputStream fis = new FileInputStream(file);

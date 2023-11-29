@@ -22,7 +22,7 @@ public class Client {
         PrintWriter writer = new PrintWriter(os, true);
         BufferedReader reader = new BufferedReader(new InputStreamReader(is));
 
-        // 서버 측 소켓으로 텍스트 메세지 보내기
+        // 서버 측 소켓으로 텍스트 메시지 보내기
         writer.println("홍길동");
 
         // 서버가 보낸 메시지 수신하기
