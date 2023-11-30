@@ -32,8 +32,8 @@ public class FileClient {
         out.writeUTF(filename);
         out.writeLong(size);
 
-        // 파일데이터를 파일 서버로 보내기
-        System.out.println("파일데이터를 파일 서버로 전송하기 시작함");
+        // 파일 데이터를 파일 서버로 보내기
+        System.out.println("파일 데이터를 파일 서버로 전송하기 시작함");
         int len = 0;
         byte[] buf = new byte[1024];
         while ((len = fis.read(buf)) != -1) {
@@ -41,6 +41,6 @@ public class FileClient {
         }
 
         fis.close();
-        System.out.println("파일데이터를 파일 서버로 전송하기 완료함");
+        System.out.println("파일 데이터를 파일 서버로 전송 완료함");
     }
 }

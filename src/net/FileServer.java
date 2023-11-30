@@ -21,7 +21,7 @@ public class FileServer {
                 DataInputStream in = new DataInputStream(socket.getInputStream());
                 DataOutputStream out = new DataOutputStream(socket.getOutputStream());
 
-                System.out.println("파일클라이언트가 첨부파일 업로드를 시작함");
+                System.out.println("파일 클라이언트가 첨부파일 업로드를 시작함");
 
                 String fileName = in.readUTF();
                 long size = in.readLong();
@@ -45,7 +45,6 @@ public class FileServer {
                 }
                 fos.close();
             } catch (IOException e) {
-
             }
         }
     }
