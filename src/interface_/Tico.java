@@ -1,4 +1,4 @@
-package javainterface;
+package interface_;
 
 public class Tico implements Car, AirConditioner {
     @Override

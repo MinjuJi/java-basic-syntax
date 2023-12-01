@@ -1,4 +1,4 @@
-package javainterface;
+package interface_;
 
 public class CarTester {
     public void testCar(Car car) {

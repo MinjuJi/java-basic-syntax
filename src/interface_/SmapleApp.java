@@ -1,4 +1,4 @@
-package javainterface;
+package interface_;
 
 import java.io.Serializable;
 

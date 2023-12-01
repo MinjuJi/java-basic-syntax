@@ -1,16 +1,17 @@
-package javainterface;
+package interface_;
 
 public class CarTester2 {
     public void testCar(Car car) { // Car 타입이거나 Car 타입을 상속하거나 구현한 타입
-
+        car.go();
+        car.stop();
     }
 
     public void testAirCon(AirConditioner airConditioner) {
-
+        airConditioner.airControl();
     }
 
     public void testNavigation(Navigation navigation) {
-
+        navigation.navi();
     }
 
     public static void main(String[] args) {

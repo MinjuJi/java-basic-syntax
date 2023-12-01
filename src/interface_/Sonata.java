@@ -1,4 +1,4 @@
-package javainterface;
+package interface_;
 
 public class Sonata implements Car, AirConditioner, Navigation {
     @Override
